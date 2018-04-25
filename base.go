@@ -1,12 +1,10 @@
 package main
-import ( //"context"
-        _"fmt"
+import (
         "bufio"
         "log"
-        //"regist"; "github.com/UltimaQuazar/go-mastodon"
-        _"github.com/urfave/cli"
         "os"
         set "./setup"
+        //"regist"; "github.com/UltimaQuazar/go-mastodon"
        )
 
 var(
@@ -28,5 +26,4 @@ func main(){
     app := set.Creat()
     err := app.Run(os.Args)
     err_chk(err)
-    //reg_app()
 }

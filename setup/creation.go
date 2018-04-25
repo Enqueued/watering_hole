@@ -1,8 +1,6 @@
 package setup
 import (
         "fmt"
-        _"log"
-        _"os"
         "github.com/urfave/cli"
         )
 
